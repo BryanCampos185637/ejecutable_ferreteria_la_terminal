@@ -29,7 +29,8 @@ function cerrarSesion() {
         confirmButtonText: 'Si, cerrar!'
     }).then((result) => {
         if (result.isConfirmed) {
-            document.getElementById('btnActivarCerrarSesion').click();
+            /*document.getElementById('btnActivarCerrarSesion').click();*/
+            location.href ='/Login/cerrarSesion'
         }
     })
 }
