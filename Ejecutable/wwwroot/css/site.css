@@ -85,3 +85,8 @@ td {
 .list-group-item {
     padding: .42rem .50rem !important;
 }
+.tb_paginas {
+    overflow: scroll !important;
+    height: 200px !important;
+    overflow-x: hidden !important;
+}
